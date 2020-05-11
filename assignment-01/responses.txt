@@ -1,0 +1,4 @@
+5. The internet is the network of networks that is the infrastructure that the web lays on top of. The web is the group of information that is accessed through the internet.
+6. The internet works by separating messages into packets. These packages are routed by networks to reach the IP that requested the information stored in the packet. Once the recipient IP gathers the information from the packet, it is reassembled into the original message or information.
+7. A directory is a file system object that is used to store the references to other directory or files. Related files are stored within a directory.
+8. Using VCS is beneficial because it allows multiple people to work on any file at any time and allows the changes to be merged at a later date. 
