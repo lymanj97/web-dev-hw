@@ -1,0 +1,9 @@
+My Responses:
+
+6. Data travels on the internet in many ways. Information is broken down into smaller bits of binary code, made up of 1s and 0s. The binary code is stored in packets and is labeled with the requesting IP and the destination IP address. Routers help the packets find their way to the desitnation through the many channels. At the destination, TCP ensures that all packets have arrived and if any haven't, it will request the missing information. This can be done using electricity (ethernet), light (fiber optics), or wirelessly.
+
+7. An IP address is a number that is assigned to each device that is connected to a network that uses internet protocol. DNS is the service that converts word references (such as reddit.com) back into the IP address that is assigned.
+
+8. A cookie is a small piece of data that a website stores on a user's computer to allow them to remember information about the user's history. For example, whether or not the user is still signed in.
+
+9. The three basic parts of a URL are the protocol, the domain name, and the path.
