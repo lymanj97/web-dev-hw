@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <!--Meta Information-->
+    <meta charset="utf-8">
+    <meta name="author" content="Jordan Lyman">
+    <meta name="description" content="Contact info and form for Runner's Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title-->
+    <title>Contact Runner's Edge</title>
+    <!--Table Styling-->
+    <style>
+      table, th, td{
+        border: 1px solid black;
+        padding: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Contact Runner's Edge</h1>
+
+    <!--Address Information-->
+    <h2>Location:</h2>
+    <address>
+      304 North Higgins Avenue<br />
+      Missoula, MT 59802<br />
+      Phone: (406)728-9297
+    </address>
+    <p>Come visit us or <a href="mailto:anders@runnersedgemt.com">send us an email!</a></p>
+
+    <!--Company Information Table-->
+    <h2>Meet the Team!</h2>
+    <table>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Hometown</th>
+        <th scope="col">Trail or Road?</th>
+      </tr>
+      <tr>
+        <th scope="row">Meg Brooker</th>
+        <td>Mullica Hill, NJ</td>
+        <td>Road</td>
+      </tr>
+      <tr>
+        <th scope="row">Tim Brooker</th>
+        <td>Duluth, MN</td>
+        <td>Trail</td>
+      </tr>
+      <tr>
+        <th scope="row">Vicky Mix</th>
+        <td>Litchfield, MN</td>
+        <td>Trail</td>
+      </tr>
+      <tr>
+        <th scope="row">Anders Brooker</th>
+        <td>Plains, MT</td>
+        <td>Cross Country</td>
+      </tr>
+      <tr>
+        <th scope="row">Alex Tait</th>
+        <td>Missoula, MT</td>
+        <td>Trail</td>
+      </tr>
+      <tr>
+        <th scope="row">Jeff Mogavero</th>
+        <td>Havertown, PA</td>
+        <td>Trail</td>
+      </tr>
+    </table>
+
+    <!--Form-->
+    <h2>What shoe should you use?</h2>
+    <form action="example.com" method="post" id="contact-form" class="basic-forms">
+      <fieldset>
+        <legend>Running Details</legend>
+        <label>Name:
+          <input type="text" name="name" id="contact-name" size="15" focus />
+        </label>
+        <br/ >
+        <br />
+        <label>Run Type:
+          <input id="trail" type="radio" name="run-type" value="trail" checked>
+          <label for="trail">Trail</label>
+          <input id="road" type="radio" name="run-type" value="road">
+          <label for="road">Road</label>
+        </label>
+        <br />
+        <br />
+        <label>Anything else we should know?
+        <br />
+        <textarea name="additional-information" id="additional-shoe-info" cols="20" rows="4">Arch type, pronation, etc...</textarea>
+        </label>
+        <br />
+        <br />
+        <input type="submit" name="find-your-shoe" value="Find Your Shoe!" />
+      </fieldset>
+    </form>
+
+  </body>
+
+</html>
