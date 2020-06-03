@@ -33,6 +33,9 @@
         margin: auto;
         padding: 20px;
       }
+      .basic-forms {
+        text-align: left;
+      }
       li {
         display: inline;
         padding: 5px;
@@ -53,6 +56,46 @@
         <li><a href="./contact.html">Contact Me</a></li>
       </ul>
     </nav>
+    <!--Contact Information-->
+    <div id="contact-info" class="alt-color">
+      <h2>Contact Information</h2>
+      <p>You can reach Jordan at:</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2728.268931811046!2d-113.98634538439534!3d46.85807977914207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535dcc34a6726733%3A0x9f30f5bdcfb32604!2sGrizzly%20Statue!5e0!3m2!1sen!2sus!4v1591204692703!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      <address>
+        <br />32 Campus Drive<br />
+        Missoula, MT 59812<br />
+        Phone: 208-555-5555
+      </address>
+      <p>Or <a href="mailto:jordan.lyman@mso.umt.edu">email Jordan!</a></p>
+    </div>
+    <!--Form-->
+    <div id="contact-request" class="main-color">
+      <h2>Send us your information!</h2>
+      <form action="./index.html" method="post" id="contact-form" class="basic-forms">
+        <fieldset>
+          <legend>Contact Info</legend>
+          <label>Name:
+            <input type="text" name="name" id="contact-name" size="15" focus />
+          </label>
+          <br />
+          <br />
+          <label>Did you like my cracker sandwiches?
+            <input id="yes" type="radio" name="like-instructable" value="yes" checked>
+            <label for="yes">Yes</label>
+            <input id="no" type="radio" name="like-instructable" value="no">
+            <label for="no">No</label>
+          </label>
+          <br />
+          <br />
+          <label>Anything else we should know?
+            <br />
+            <textarea name="additional-info" id="additional-info" cols="20" rows="4">Type here..</textarea>
+          </label>
+          <br />
+          <input type="submit" name="contact-button" value="Submit" />
+        </fieldset>
+      </form>
+    </div>
   </body>
 
 </html>
