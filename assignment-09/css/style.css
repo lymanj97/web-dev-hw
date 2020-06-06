@@ -1,0 +1,41 @@
+* {
+  text-align: center;
+  padding: 15px;
+}
+
+body {
+  background-color: #2D758C;
+}
+
+/* Text Styles */
+p {
+  font-family: verdana;
+  font-size: 10px;
+  color: white;
+}
+
+/* Div Styles */
+#top-section {
+  background-color: #CF4917;
+}
+
+#middle-section {
+  background-color: #F9AC3D;
+}
+
+#bottom-section {
+  background-color: #758C33;
+}
+
+.section {
+  width: 40%;
+  margin: auto;
+  opacity: .8;
+}
+
+/* Image Styles */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
