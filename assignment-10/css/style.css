@@ -1,0 +1,45 @@
+/*Import Fonts */
+@font-face{
+  font-family: 'Karla';
+  src: url('../fonts/Karla-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Stylings */
+* {
+  text-align: left;
+  margin: auto;
+  width: 80%;
+}
+
+body {
+  background-color: #5A7D7C;
+  padding: 15px;
+}
+
+/* Text Styles */
+h1,h2 {
+  font-family: 'Rubik', sans-serif;
+}
+
+p {
+  font-family: 'Karla', sans-serif;
+  line-height: 1.5em;
+  word-spacing: normal;
+  letter-spacing: normal;
+}
+
+p::first-letter {
+  font-size: 150%;
+}
+
+a:hover {
+  font-weight: bold;
+}
