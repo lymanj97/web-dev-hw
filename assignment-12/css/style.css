@@ -1,0 +1,132 @@
+/* Import Fonts - Provided by https://fontpair.co/*/
+@font-face{
+  font-family: 'Karla';
+  src: url('../fonts/Karla-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Karla';
+  src: url('../fonts/Karla-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Spectral';
+  src: url('../fonts/Spectral-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Spectral';
+  src: url('../fonts/Spectral-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Spectral';
+  src: url('../fonts/Spectral-Medium.ttf') format('truetype');
+  font-weight: Medium;
+  font-style: normal;
+}
+/* Whole Body */
+body {
+  width: 100%;
+  background-color: #ccd0d2;
+}
+
+p {
+  font-family: "Spectral", serif;
+}
+
+h1, h2 {
+  font-family: "Karla", sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #3f2e27;
+  font-family: "Spectral", serif;
+  font-size: 14;
+  text-align: right;
+  position: absolute;
+  width: 99%;
+  min-width: 50%;
+  height: 5em;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+.title {
+  font-family: "Karla", sans-serif;
+  color: white;
+  text-align: left;
+  display: inline;
+  position: absolute;
+  left: 2em;
+}
+
+/*Navigation */
+.menu-item {
+  display: inline-block;
+  padding: .5em;
+  text-align: center;
+  margin 0;
+  min-width: 8em;
+  position: relative;
+  right: 2em;
+  width: 100px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-item p {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-item:hover {
+  background-color: #244c66;
+  color: black;
+}
+
+/* Dropdown */
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border: 1px solid #3f2e27;
+  background-color: white;
+  color: #3f2e27;
+  z-index: 1;
+  margin: 0;
+  margin-top: .5em;
+}
+
+.dropdown-content a {
+  color: #3f2e27;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-item {
+  display: block;
+  text-align: left;
+  padding: .5em;
+  min-width: 7em;
+  margin: 0;
+}
+
+/* Content */
