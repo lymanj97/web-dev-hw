@@ -47,6 +47,7 @@ h1, h2 {
   font-family: "Karla", sans-serif;
 }
 
+
 /* Header */
 header {
   background-color: #3f2e27;
@@ -130,3 +131,27 @@ header {
 }
 
 /* Content */
+.main-content {
+  position: relative;
+  top: 6em;
+  border: 2px solid #3f2e27;
+  padding: 1em;
+  margin: .5em;
+  right: .5em;
+}
+
+.welcome {
+  font-size: 20pt;
+}
+
+.image {
+  float: right;
+  margin: 1.5em;
+  position: relative;
+  right: .5em;
+  border: 2px solid #3f2e27;
+}
+
+.basic-forms {
+  font-family: "Karla", sans-serif;
+}

@@ -45,5 +45,46 @@
         </div>
       </div>
     </header>
+    <div class="main-content">
+      <p class="welcome">Contact Us</p>
+      <div class="form">
+        <form action="./index.html" method="post" id="contact-form" class="basic-forms">
+          <fieldset>
+            <legend>Contact Information</legend>
+            <label>Name:
+              <input type="text" name="name" id="contact-name" size="15" focus />
+            </label>
+            <br />
+            <br />
+            <label>Phone Number:
+              <input type="text" name="phone" id="phone-number" size="9" />
+            </label>
+            <br />
+            <br />
+            <label>Email:
+              <input type="text" name="email" id="email" size="20" />
+            </label>
+            <br />
+            <br />
+            <label>Contact Preference:
+              <input id="phone-pref" type="radio" name="phone-pref" value="phone">
+              <label for "phone">Phone</label>
+              <input id="email-pref" type="radio" name="email-pref" value="email">
+              <label for-"email">Email</label>
+            </label>
+            <br />
+            <br />
+            <label>What can we help you with?
+            <br />
+            <br />
+            <textarea name="additional-info" id="additional info" cols="40" rows="4">Cake, cookie, cupcake requests or more!</textarea>
+            </label>
+            <br />
+            <br />
+            <input type="submit" name="submit" value="Submit!" />
+          </fieldset>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
