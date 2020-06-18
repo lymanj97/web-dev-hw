@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <!--Meta Info-->
+    <meta charset="utf-8">
+    <meta name="author" content="Jordan Lyman">
+    <meta name="description" content="Birchbark Candle Co. Contact Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title-->
+    <title>Contact Birchbark Candle Co.</title>
+    <!--Link to Styles-->
+    <link href="./css/style.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!--Navigation-->
+    <header class="">
+      <div class="title">
+        <h1>Birchbark Candle Co.</h1>
+      </div>
+      <!--Main Items-->
+      <div class="menu-item">
+        <a href="index.html">Home</a>
+      </div>
+      <div class="menu-item">
+        <a href="services.html">Products</a>
+      </div>
+      <div class="menu-item">
+        <a href="about.html">About Us</a>
+      </div>
+      <div class="menu-item">
+        <a href="contact.html">Contact</a>
+      </div>
+      <!--Dropdown-->
+      <div class="menu-item dropdown">
+        <p>Other Links</p>
+        <div class="dropdown-content">
+          <div class="dropdown-item">
+            <a href="https://www.facebook.com/lymanj97/">Facebook</a>
+          </div>
+          <div class="dropdown-item">
+            <a href="https://www.instagram.com/birchbarkcandleco/">Instagram</a>
+          </div>
+          <div class="dropdown-item">
+            <a href="https://www.candlescience.com/">Other Candles Sources</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Main Content-->
+    <div class="main-content">
+      <p class="welcome">Contact Us</p>
+      <!--Contact info-->
+      <div class="contact-info">
+        <p>We are located at:</p>
+        <!--Google Map-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2727.916384414276!2d-113.98486968439506!3d46.865017879142535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535dcc3194e28fdb%3A0x44ceb4956f7ec4c6!2s91%20Campus%20Dr%2C%20Missoula%2C%20MT%2059801!5e0!3m2!1sen!2sus!4v1592514724257!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="contact-map image"></iframe>
+        <address>
+          91 Campus Drive<br />
+          Missoula, MT 59801<br />
+          Phone: (208)310-1688
+        </address>
+        <p>Or <a href="mailto:lymanj97@gmail.com">email us!</a></p>
+      </div>
+      <!--Form-->
+      <div class="form">
+        <form action="./index.html" method="post" id="contact-form" class="basic-forms">
+          <fieldset>
+            <legend>Contact Information</legend>
+            <label>Name:
+              <input type="text" name="name" id="contact-name" size="15" focus />
+            </label>
+            <br />
+            <br />
+            <label>Phone Number:
+              <input type="text" name="phone" id="phone-number" size="9" />
+            </label>
+            <br />
+            <br />
+            <label>Email:
+              <input type="text" name="email" id="email" size="20" />
+            </label>
+            <br />
+            <br />
+            <label>Contact Preference:
+              <input id="phone-pref" type="radio" name="phone-pref" value="phone">
+              <label for "phone">Phone</label>
+              <input id="email-pref" type="radio" name="email-pref" value="email">
+              <label for-"email">Email</label>
+            </label>
+            <br />
+            <br />
+            <label>What can we help you with?
+            <br />
+            <br />
+            <textarea name="additional-info" id="additional info" cols="40" rows="4">Special candle requests?</textarea>
+            </label>
+            <br />
+            <br />
+            <input type="submit" name="submit" value="Submit!" />
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

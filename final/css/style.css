@@ -1,0 +1,166 @@
+/* Import Fonts - Provided by https://fontpair.co/*/
+@font-face{
+  font-family: 'Proza Libre';
+  src: url('../fonts/ProzaLibre-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Whole Body */
+body {
+  width: 100%
+  background-color: #cfc0b4;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2 {
+  font-family: "Proza Libre", sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #6d4d1a;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14;
+  text-align: right;
+  position: absolute;
+  width: 99%;
+  min-width: 50%;
+  height: 5em;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+.title {
+  font-family: "Proza Libre", sans-serif;
+  color: white;
+  text-align: left;
+  display: inline;
+  position: absolute;
+  left: 2em;
+}
+
+/*Navigation */
+.menu-item {
+  display: inline-block;
+  padding: .5em;
+  text-align: center;
+  margin 0;
+  min-width: 8em;
+  position: relative;
+  right: 2em;
+  width: 100px;
+  top:.5em;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-item p {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-item:hover {
+  background-color: #a79c8e;
+  color: black;
+}
+
+/* Dropdown */
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border: 1px solid #6d4d1a;
+  background-color: white;
+  color: #6d4d1a;
+  z-index: 1;
+  margin: 0;
+  margin-top: .5em;
+}
+
+.dropdown-content a {
+  color: #6d4d1a;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-item {
+  display: block;
+  text-align: left;
+  padding: .5em;
+  min-width: 7em;
+  margin: 0;
+}
+
+/* All Content */
+.main-content {
+  position: relative;
+  top: 5em;
+  border: 2px solid #6d4d1a;
+  padding: 1em;
+  margin: .5em;
+  right: .5em;
+  font-size: 16pt;
+}
+
+
+.welcome {
+  font-size: 30pt;
+}
+
+/* Images */
+.image {
+  float: right;
+  margin: 1.5em;
+  position: relative;
+  right: .5em;
+  border: 2px solid #6d4d1a;
+}
+
+.home-image {
+  position: relative;
+  bottom: 5.75em;
+}
+
+.service-image {
+  position: relative;
+  bottom: 6em;
+}
+
+.contact-map {
+  position: relative;
+  bottom: 8em;
+}
+
+.about-video {
+  position: relative;
+  bottom: 2em;
+}
+
+/* Lists */
+.scent-list {
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  left: 2em;
+}
+/*Form*/
+.basic-forms {
+  font-family: "Open Sans", sans-serif;
+}
